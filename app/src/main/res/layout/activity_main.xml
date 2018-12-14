@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:id="@+id/hola" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hola"
+            android:id="@+id/interdistancia"
+            android:hint="interdistancia"
+            android:inputType="number|phone"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/interdistancia"
+            android:id="@+id/ancho_calzada"
+            android:hint="ancho calzada"
+            android:inputType="number|phone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s1"
+            android:hint="s9"
+            android:layout_below="@+id/ancho_calzada"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s2"
+            android:hint="s9"
+            android:layout_below="@+id/s1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s3"
+            android:hint="s9"
+            android:layout_below="@+id/s2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s4"
+            android:hint="s9"
+            android:layout_below="@+id/s3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s5"
+            android:hint="s9"
+            android:layout_below="@+id/s4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s6"
+            android:hint="s9"
+            android:layout_below="@+id/s5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s7"
+            android:hint="s9"
+            android:layout_below="@+id/s6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s8"
+            android:hint="s9"
+            android:layout_below="@+id/s7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s9"
+            android:hint="s9"
+            android:layout_below="@+id/s8"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/s9"
+            android:onClick="changeActivity"
+            android:text="accion" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
